@@ -65,12 +65,10 @@ export const Itens = styled.div`
     flex-direction: column;
     gap: 6px;
     span {
-        font-size: 13px;
         color: ${variaveis.corTexto};
         font-weight: bold;
     }
     h3, p {
         font-weight: bold;
-        font-size: 16px;
     }
 `
