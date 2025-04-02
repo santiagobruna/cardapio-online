@@ -1,54 +1,45 @@
-# React + TypeScript + Vite
+# Cardápio Online
+Este projeto é uma plataforma digital para cardápios, permitindo que clientes visualizem os produtos de forma prática e intuitiva. Desenvolvido com React e TypeScript, o sistema proporciona uma navegação fluida e moderna.
+# 🎯Funcionalidades:
+- 🛒 Adicionar produtos ao carrinho para visualizar a quantidade e o preço total.
+- 🔄 Atualizar a quantidade de itens dinamicamente.
+- 💰 Cálculo automático do valor total da compra.
+- 📱 Interface responsiva, adaptada para diferentes dispositivos.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Tecnologias Utilizadas
+- React - Biblioteca para construção de interfaces.
+- TypeScript - Superconjunto tipado de JavaScript.
+- Vite - Build tool rápida para aplicações web modernas.
+- Styled Components - Utilizado para estilização dinâmica e moderna.
+- Redux - Gerenciamento global de estado.
+## 📸 Demonstração
+![cardapio](https://github.com/user-attachments/assets/784ce819-faa7-44ff-80aa-618a4d96d84f)
 
-Currently, two official plugins are available:
+## 📦 Como Rodar o Projeto:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Clone o repositório:
+``` 
+git clone https://github.com/santiagobruna/cardapio-online.git
 
-## Expanding the ESLint configuration
+````
+2. Acesse a pasta do projeto:
+``` 
+cd cardapio-online
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+````
+3. Instale as dependências:
+``` 
+npm install
+# ou
+yarn install
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+````
+4. Execute o projeto:
+``` 
+npm run dev
+# ou
+yarn dev
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+````
+## Acesse o projeto
+Clicando aqui: https://cardapio-online-flame.vercel.app/
